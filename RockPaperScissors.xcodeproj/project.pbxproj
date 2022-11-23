@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040BC63D292C73AC0043C716 /* PlayScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BC63C292C73AC0043C716 /* PlayScreenViewController.swift */; };
+		040BC63F292C74EC0043C716 /* WinScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BC63E292C74EC0043C716 /* WinScreen.swift */; };
+		040BC641292C75070043C716 /* LoseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BC640292C75070043C716 /* LoseScreen.swift */; };
+		040BC643292C754F0043C716 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BC642292C754F0043C716 /* SettingsScreen.swift */; };
 		DA32791F29251FC100A49297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32791E29251FC100A49297 /* AppDelegate.swift */; };
 		DA32792129251FC100A49297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32792029251FC100A49297 /* SceneDelegate.swift */; };
 		DA32792329251FC100A49297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32792229251FC100A49297 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040BC63C292C73AC0043C716 /* PlayScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayScreenViewController.swift; sourceTree = "<group>"; };
+		040BC63E292C74EC0043C716 /* WinScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreen.swift; sourceTree = "<group>"; };
+		040BC640292C75070043C716 /* LoseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseScreen.swift; sourceTree = "<group>"; };
+		040BC642292C754F0043C716 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		DA32791B29251FC100A49297 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA32791E29251FC100A49297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA32792029251FC100A49297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				DA32792029251FC100A49297 /* SceneDelegate.swift */,
 				DA32792229251FC100A49297 /* ViewController.swift */,
 				DA32792429251FC100A49297 /* Main.storyboard */,
+				040BC642292C754F0043C716 /* SettingsScreen.swift */,
+				040BC640292C75070043C716 /* LoseScreen.swift */,
+				040BC63E292C74EC0043C716 /* WinScreen.swift */,
+				040BC63C292C73AC0043C716 /* PlayScreenViewController.swift */,
 				DA32792729251FC200A49297 /* Assets.xcassets */,
 				DA32792929251FC200A49297 /* LaunchScreen.storyboard */,
 				DA32792C29251FC200A49297 /* Info.plist */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040BC641292C75070043C716 /* LoseScreen.swift in Sources */,
+				040BC643292C754F0043C716 /* SettingsScreen.swift in Sources */,
 				DA32792329251FC100A49297 /* ViewController.swift in Sources */,
+				040BC63F292C74EC0043C716 /* WinScreen.swift in Sources */,
 				DA32791F29251FC100A49297 /* AppDelegate.swift in Sources */,
+				040BC63D292C73AC0043C716 /* PlayScreenViewController.swift in Sources */,
 				DA32792129251FC100A49297 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
