@@ -1,20 +1,18 @@
-//
-//  LoseScreen.swift
-//  RockPaperScissors
-//
-//  Created by Jordan Kramer on 11/21/22.
-//
-
 import UIKit
 
 class LoseScreen: UIViewController {
-
+var imputLoseRecord = ""
+    
+    @IBOutlet weak var recordLabelOutlet: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        recordLabelOutlet.text = imputLoseRecord
+        print(imputLoseRecord)
+    }
 
     /*
     // MARK: - Navigation

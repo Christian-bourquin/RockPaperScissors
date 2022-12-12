@@ -1,20 +1,18 @@
-//
-//  WinScreen.swift
-//  RockPaperScissors
-//
-//  Created by Jordan Kramer on 11/21/22.
-//
-
 import UIKit
 
 class WinScreen: UIViewController {
-
+var imputWinRecord = ""
+    
+    
+    @IBOutlet weak var recordLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        recordLabel.text = imputWinRecord
+        print(imputWinRecord)
+    }
 
     /*
     // MARK: - Navigation
