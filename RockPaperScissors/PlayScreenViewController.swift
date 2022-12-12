@@ -26,7 +26,7 @@ var enemy = 0
         recordTextOutlet.text = record().getRecord(win: WinRec, loss: LossRec)
         roundTextOutlet.text = "Round: \(TrackRound)"
         // Do any additional setup after loading the view.
-        
+        self.navigationItem.setHidesBackButton(true, animated: true)
     }
     
     @IBAction func rockAction(_ sender: UITapGestureRecognizer) {

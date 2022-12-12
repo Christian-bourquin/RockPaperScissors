@@ -6,7 +6,7 @@ var imputLoseRecord = ""
     @IBOutlet weak var recordLabelOutlet: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.setHidesBackButton(true, animated: true)
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {

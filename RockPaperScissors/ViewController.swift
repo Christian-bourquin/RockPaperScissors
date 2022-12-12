@@ -7,6 +7,7 @@ class ViewController: UIViewController {
     var total = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated: true)
         // Do any additional setup after loading the view.
     }
 
